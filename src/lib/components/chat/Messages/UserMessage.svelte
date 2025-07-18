@@ -117,8 +117,8 @@
 			<ProfileImage
 				src={message.user
 					? ($models.find((m) => m.id === message.user)?.info?.meta?.profile_image_url ??
-						'/user.png')
-					: (user?.profile_image_url ?? '/user.png')}
+						'/crumble_ai.png')
+					: (user?.profile_image_url ?? '/crumble_ai.png')}
 				className={'size-8 user-message-profile-image'}
 			/>
 		</div>

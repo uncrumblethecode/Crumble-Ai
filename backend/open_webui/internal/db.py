@@ -2,6 +2,8 @@ import json
 import logging
 from contextlib import contextmanager
 from typing import Any, Optional
+# ia m added this line
+from open_webui.env import DATABASE_URL
 
 from open_webui.internal.wrappers import register_connection
 from open_webui.env import (

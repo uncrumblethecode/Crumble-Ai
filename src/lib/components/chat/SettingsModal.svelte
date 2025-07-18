@@ -422,7 +422,7 @@
 			keywords: [
 				'about app',
 				'about me',
-				'about open webui',
+				'about Crumble Ai',
 				'about page',
 				'about us',
 				'aboutapp',
