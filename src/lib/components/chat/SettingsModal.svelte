@@ -422,7 +422,7 @@
 			keywords: [
 				'about app',
 				'about me',
-				'about Crumble Ai',
+				'about Crumble AI',
 				'about page',
 				'about us',
 				'aboutapp',

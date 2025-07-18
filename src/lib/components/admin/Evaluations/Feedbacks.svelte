@@ -124,7 +124,7 @@
 	};
 
 	const shareHandler = async () => {
-		toast.success($i18n.t('Redirecting you to Crumble Ai Community'));
+		toast.success($i18n.t('Redirecting you to Crumble AI Community'));
 
 		// remove snapshot from feedbacks
 		const feedbacksToShare = feedbacks.map((f) => {
@@ -408,7 +408,7 @@
 					}}
 				>
 					<div class=" self-center mr-2 font-medium line-clamp-1">
-						{$i18n.t('Share to Crumble Ai Community')}
+						{$i18n.t('Share to Crumble AI Community')}
 					</div>
 
 					<div class=" self-center">

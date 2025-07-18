@@ -420,7 +420,7 @@
 						</div>
 
 						<div class="mt-2 mb-1 text-xs text-gray-400 dark:text-gray-500">
-							{$i18n.t(`Crumble Ai uses faster-whisper internally.`)}
+							{$i18n.t(`Crumble AI uses faster-whisper internally.`)}
 
 							<a
 								class=" hover:underline dark:text-gray-200 text-gray-800"
@@ -571,7 +571,7 @@
 								</div>
 							</div>
 							<div class="mt-2 mb-1 text-xs text-gray-400 dark:text-gray-500">
-								{$i18n.t(`Crumble Ai uses SpeechT5 and CMU Arctic speaker embeddings.`)}
+								{$i18n.t(`Crumble AI uses SpeechT5 and CMU Arctic speaker embeddings.`)}
 
 								To learn more about SpeechT5,
 

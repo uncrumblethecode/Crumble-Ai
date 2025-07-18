@@ -271,7 +271,7 @@
 
 					if ($isLastActiveTab) {
 						if ($settings?.notificationEnabled ?? false) {
-							new Notification(`${title} • Crumble Ai`, {
+							new Notification(`${title} • Crumble AI`, {
 								body: content,
 								icon: `${WEBUI_BASE_URL}/static/crumble_ai.png`
 							});
@@ -420,7 +420,7 @@
 			if (type === 'message') {
 				if ($isLastActiveTab) {
 					if ($settings?.notificationEnabled ?? false) {
-						new Notification(`${data?.user?.name} (#${event?.channel?.name}) • Crumble Ai`, {
+						new Notification(`${data?.user?.name} (#${event?.channel?.name}) • Crumble AI`, {
 							body: data?.content,
 							icon: data?.user?.profile_image_url ?? `${WEBUI_BASE_URL}/static/crumble_ai.png`
 						});

@@ -195,7 +195,7 @@
 </script>
 
 <svelte:head>
-	<title>#{channel?.name ?? 'Channel'} • Crumble Ai</title>
+	<title>#{channel?.name ?? 'Channel'} • Crumble AI</title>
 </svelte:head>
 
 <div

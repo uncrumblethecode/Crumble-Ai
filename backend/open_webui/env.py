@@ -106,9 +106,9 @@ for source in log_sources:
 
 log.setLevel(SRC_LOG_LEVELS["CONFIG"])
 
-WEBUI_NAME = os.environ.get("WEBUI_NAME", "Crumble Ai")
-if WEBUI_NAME != "Crumble Ai":
-    WEBUI_NAME += " (Crumble Ai)"
+WEBUI_NAME = os.environ.get("WEBUI_NAME", "Crumble AI")
+if WEBUI_NAME != "Crumble AI":
+    WEBUI_NAME += " (Crumble AI)"
 
 WEBUI_FAVICON_URL = "https://openwebui.com/crumble_ai.png"
 

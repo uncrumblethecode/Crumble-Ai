@@ -2,7 +2,7 @@
 
 Sometimes, it's beneficial to host Ollama, separate from the UI, but retain the RAG and RBAC support features shared across users:
 
-# Crumble Ai Configuration
+# Crumble AI Configuration
 
 ## UI Configuration
 

@@ -22,7 +22,7 @@ def search_firecrawl(
         response = requests.post(
             firecrawl_search_url,
             headers={
-                "User-Agent": "Crumble Ai (https://github.com/open-webui/open-webui) RAG Bot",
+                "User-Agent": "Crumble AI (https://github.com/open-webui/open-webui) RAG Bot",
                 "Authorization": f"Bearer {firecrawl_api_key}",
             },
             json={
