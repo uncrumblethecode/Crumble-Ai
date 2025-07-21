@@ -49,7 +49,7 @@
 			}}
 		>
 			<img
-				src="/crumble_ai.png"
+				src="/static/crumble_ai.png"
 				class="size-10 {selected === '' ? 'rounded-2xl' : 'rounded-full'}"
 				alt="logo"
 				draggable="false"

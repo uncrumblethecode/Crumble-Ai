@@ -2,11 +2,11 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/png" href="/crumble_ai.png" />
-		<link rel="icon" type="image/png" href="/crumble_ai.png" sizes="96x96" />
-		<link rel="icon" type="image/svg+xml" href="/crumble_ai.png" />
-		<link rel="shortcut icon" href="/crumble_ai.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/crumble_ai.png" />
+		<link rel="icon" type="image/png" href="/static/crumble_ai.png" />
+		<link rel="icon" type="image/png" href="/static/crumble_ai.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/static/crumble_ai.png" />
+		<link rel="shortcut icon" href="/static/crumble_ai.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/static/crumble_ai.png" />
 		<meta name="apple-mobile-web-app-title" content="Crumble AI" />
 
 		<link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
@@ -84,10 +84,10 @@
 
 					if (isDarkMode) {
 						const darkImage = new Image();
-						darkImage.src = '/crumble_ai.png';
+						darkImage.src = '/static/crumble_ai.png';
 
 						darkImage.onload = () => {
-							logo.src = '/crumble_ai.png';
+							logo.src = '/static/crumble_ai.png';
 							logo.style.filter = ''; // Ensure no inversion is applied if splash-dark.png exists
 						};
 
@@ -130,7 +130,7 @@
 					left: 50%;
 					transform: translateX(-50%);
 				"
-				src="/crumble_ai.png"
+				src="/static/crumble_ai.png"
 			/>
 
 			<div
@@ -150,7 +150,7 @@
 				<img
 					id="logo-her"
 					style="width: auto; height: 13rem"
-					src="/crumble_ai.png"
+					src="/static/crumble_ai.png"
 					class="animate-pulse-fast"
 				/>
 

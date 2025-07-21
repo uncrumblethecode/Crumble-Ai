@@ -393,7 +393,7 @@
 								/>
 							{:else}
 								<img
-									src="/crumble_ai.png"
+									src="/static/crumble_ai.png"
 									alt="model profile"
 									class=" rounded-xl size-72 md:size-60 object-cover shrink-0"
 								/>
