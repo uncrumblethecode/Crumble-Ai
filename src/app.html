@@ -185,24 +185,24 @@
 				Footer content
 			</span> -->
 		</div>
-		<script>
-  			const setTitle = () => {
-    			if (document.title !== "Crumble AI") {
-      				document.title = "Crumble AI";
-    			}
-			};
+		// <script>
+  		// 	const setTitle = () => {
+    	// 		if (document.title !== "Crumble AI") {
+      	// 			document.title = "Crumble AI";
+    	// 		}
+		// 	};
 
-  			// Run immediately
-  			setTitle();
+  		// 	// Run immediately
+  		// 	setTitle();
 
-			// Also on every mutation or interval
-			new MutationObserver(setTitle).observe(document.documentElement, {
-				childList: true,
-				subtree: true
-			});
+		// 	// Also on every mutation or interval
+		// 	new MutationObserver(setTitle).observe(document.documentElement, {
+		// 		childList: true,
+		// 		subtree: true
+		// 	});
 
-			//   setInterval(setTitle, 1000); // Optional
-		</script>
+		// 	//   setInterval(setTitle, 1000); // Optional
+		// </script>
 	</body>
 </html>
 
